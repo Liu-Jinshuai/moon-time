@@ -1,0 +1,12 @@
+{
+  "name": "moon-time",
+  "version": "1.0.2",
+  "description": "",
+  "main": "calculate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["moon","solar calendar","lunar calendar"],
+  "author": "liujinshuai",
+  "license": "ISC"
+}
