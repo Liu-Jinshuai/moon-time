@@ -39,7 +39,7 @@ moon-time is a component that converts the solar calendar to the lunar calendar 
     <script src="./calculate"></script>
     <script>
         let moonTimes = moonTime({
-			year:2022,
+	    year:2022,
             month:10,
             day:13
         })
