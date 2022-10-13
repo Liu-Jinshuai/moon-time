@@ -1,7 +1,7 @@
 (function (global, calculate) {
     typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = calculate() :
         typeof define === 'function' && define.amd ? define(calculate) :
-            (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.calculate = calculate());
+            (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.moonTime = calculate());
 })(this, (function () {
     'use strict';
 
