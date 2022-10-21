@@ -23,13 +23,13 @@ moon-time is a component that converts the solar calendar to the lunar calendar 
     let moonTime = require('moon-time')
     // import moonTime from 'moon-time'
     
-	let moonTimes = moonTime({
-	    year:2022,
-	    month:10,
-	    day:13
-	})
+    let moonTimes = moonTime({
+	 year:2022,
+	 month:10,
+	 day:13
+    })
 	
-	console.log(moonTimes);
+    console.log(moonTimes);
 	
 ```
 
@@ -43,7 +43,7 @@ In order to unify the naming, it is now changed to "moon-time", the previous "ca
     <script src="./calculate"></script>
     <script>
         let moonTimes = moonTime({
-			year:2022,
+	    year:2022,
             month:10,
             day:13
         })
